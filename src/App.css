@@ -1,0 +1,14 @@
+/* app.css */
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Set minimum height to viewport height */
+  background-color: rgb(151, 198, 255);
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}

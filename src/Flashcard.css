@@ -1,0 +1,39 @@
+/* Flashcard.css */
+
+.flip-card {
+    width: 70vh; /* Adjust the width to your desired rectangle width */
+    height: 50vh; /* Adjust the height to your desired rectangle height */
+    perspective: 1000px;
+    border-radius: 10px; /* Add border-radius for a softer appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease; /* Increase the transition duration for smoother rotation */
+    transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    color: black;
+    font-size: 4vh; /* Adjust the font size to fit better */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text horizontally */
+    border-radius: 10px; /* Add border-radius to match the card shape */
+}
+
+.flip-card-back {
+    transform: rotateX(-180deg);
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateX(-180deg);
+}

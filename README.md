@@ -1,7 +1,7 @@
 # Web Development Project 2 - *Flashcards P2*
 Submitted by: **Reva Mahto**
 
-This web app: **Extensio  of Flaschards P1, allows for checking guessed answers with actual answer. Streak functionality included.**
+This web app: **Extension  of Flaschards P1, allows for checking guessed answers with actual answer. Streak functionality included.**
 
 Time spent: **5** hours spent in total
 

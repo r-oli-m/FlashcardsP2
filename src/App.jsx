@@ -13,7 +13,10 @@ function App() {
         <h1>Korean Essentials For College</h1>
         <h2>Test your Korean language skills before the study abroad at Yonsei!</h2>
         <h4>Total Cards: 10</h4>
+        {/* track and render the streak: curr & longest */}
         <Deck />
+        {/* Guessing answer section */}
+        {/* check that the input is a substring of the answer */}
       </div>
       
     </>
